@@ -6,15 +6,12 @@
     <title></title>
   <link  href="css/style.css" rel="stylesheet" type="text/css"/>
   <style>
-    a{
-      text-align: center;
 
+    a{
+      text-decoration:underline;
     }
     h1{font-size: 80px; margin:10PX}
-    section{
 
-
-  }
   .imgs{text-align:justify;
    }
    .imgs>div{width: 100px;
@@ -47,6 +44,7 @@ margin-left:50px
   border-color: black;
 
 }
+
 .drop-down-content{display: none;
 position: absolute;
 font: italic;
@@ -63,88 +61,87 @@ z-index: 1;}
   padding: 16px;
   text-decoration: none;
   display: block;
-  background-color: black;
+  background-color: black;}
 
-}
+  body  {
+    background-image: url("images/thetree.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px 1200px;
+  }
+
+
 .drop-down-content a:hover{background: red}
 .drop-down:hover .drop-down-content{ display: block;}
 .drop-down:hover .dropbtn{background-color: red}
 
-body  {
-  background-image: url("images/thetree.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 1600px 1200px;
-}
   </style>
   </head>
   <body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" once="FSK9QJPm"></script>
 
+<section style="
+  outline: 5px;
+  outline-style: double;
+  outline-color: white;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 50px;
+  margin-bottom:10px;
+  background-image: url(images/background2.jpg)
+  ">
+    <h1 style="
+    text-align:center;
 
-
-    <section style="
-      outline: 5px;
-      outline-style: double;
-      outline-color: white;
-      margin-left:75px;
-      margin-right:75px;
-      margin-top: 50px;
-      margin-bottom:10px;
-      background-image: url(images/background2.jpg)
-      ">
-        <h1 style="
-        text-align:center;
-
-        ">Walks of Leicster city</h1>
-
-
-
-
-
-        </select>
-
-      </section>
-      <section style="
-        outline: 5px;
-        outline-style: double;
-        outline-color: white;
-        margin-left:75px;
-        margin-right:75px;
-        margin-top: 50px;
-        margin-bottom:10px;
-        background-color: black;
-        ">
-
-        <a style="font-size:50px; float:left; color:white; margin-left:10px;" href="walk-list.html">walk-list</a>
-
-    <div style="text-align:center;"class="link-bar">
-      <a style="font-size:50px;color:white;"href="index.html">Home</a>
-
-
-            <a style="font-size:50px; float:right;  color:white; margin-right:10px;"href="contact.html">contact</a>
+    ">Walks of Leicster city</h1>
 
 
 
 
 
+    </select>
+
+  </section>
+  <section style="
+    outline: 5px;
+    outline-style: double;
+    outline-color: white;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+    margin-bottom:10px;
+  
+    background-color: black;
+    ">
+
+    <a style="text-align-center; font-size:40px;color:white; margin:10px; href="walk-list.html">walk-list</a>
+
+
+  <a style="text-align-center; font-size:40px;color:white;  margin:10px; "href="index.html">Home</a>
+
+
+        <a style="text-align-center; font-size:40px;color:white; margin:10px; "href="contact.html">contact</a>
 
 
 
-        </section>
-      <div class="drop-down">
-        <button class="dropbtn" name="button"><a style="  font-style: italic;
-          font-size: 20px;
-          text-decoration: none;
-          color:black;"href="index.html">Home</a></button>
-        <div class="drop-down-content">
-          <a href="walk-list.html">walk-list</a>
-          <a href="contact.html">contact</a>
-          <a href="about.html">about</a>
-          <script type="text/javascript">
-          function handleselect(elm) {window.location=elm.value+".html"}
-      </script>
-      </div>
-      </div>
+
+
+
+
+
+    </section>
+  <div class="drop-down">
+    <button class="dropbtn" name="button">MENU</button>
+    <div class="drop-down-content">
+      <a href="walk-list.html">walk-list</a>
+      <a href="contact.html">contact</a>
+      <a href="about.html">about</a>
+      <script type="text/javascript">
+      function handleselect(elm) {window.location=elm.value+".html"}
+  </script>
+  </div>
+  </div>
 
 
 
