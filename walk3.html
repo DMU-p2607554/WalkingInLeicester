@@ -6,8 +6,9 @@
     <title></title>
   <link  href="css/style.css" rel="stylesheet" type="text/css"/>
   <style>
+
     a{
-      text-align: center;
+      text-decoration:underline;
     }
     h1{font-size: 80px; margin:10PX}
 
@@ -60,30 +61,32 @@ z-index: 1;}
   padding: 16px;
   text-decoration: none;
   display: block;
-  background-color: black;
+  background-color: black;}
 
-}
+  body  {
+    background-image: url("images/thetree.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px 1200px;
+  }
+
+
 .drop-down-content a:hover{background: red}
 .drop-down:hover .drop-down-content{ display: block;}
 .drop-down:hover .dropbtn{background-color: red}
 
-body  {
-  background-image: url("images/thetree.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 1600px 1200px;
-}
   </style>
   </head>
   <body>
-
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" once="FSK9QJPm"></script>
 
 <section style="
   outline: 5px;
   outline-style: double;
   outline-color: white;
-  margin-left:30px;
-  margin-right:30px;
+  margin-left:10px;
+  margin-right:10px;
   margin-top: 50px;
   margin-bottom:10px;
   background-image: url(images/background2.jpg)
@@ -104,20 +107,21 @@ body  {
     outline: 5px;
     outline-style: double;
     outline-color: white;
-    margin-left:30px;
-    margin-right:30px;
-    margin-top: 50px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
     margin-bottom:10px;
+  
     background-color: black;
     ">
 
-    <a style="font-size:50px; float:left; color:white; margin-left:10px;" href="walk-list.html">walk-list</a>
-
-<div style="text-align:center;"class="link-bar">
-  <a style="font-size:50px;color:white;"href="index.html">Home</a>
+    <a style="text-align-center; font-size:40px;color:white; margin:10px; "href="walk-list.html">walk-list</a>
 
 
-        <a style="font-size:50px; float:right;  color:white; margin-right:10px;"href="contact.html">contact</a>
+  <a style="text-align-center; font-size:40px;color:white;  margin:10px; "href="index.html">Home</a>
+
+
+        <a style="text-align-center; font-size:40px;color:white; margin:10px; "href="contact.html">contact</a>
 
 
 
@@ -138,6 +142,7 @@ body  {
   </script>
   </div>
   </div>
+
 
 <section style="
   margin:30px;
